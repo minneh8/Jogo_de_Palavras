@@ -1,0 +1,40 @@
+=======================================================
+  PALAVRA SECRETA DO TIMAO - REGISTRO DE PARTIDAS
+=======================================================
+
+-------------------------------------------------------
+DATA        : 06/05/2026 18:25:59
+JOGADOR     : minneh
+PALAVRA     : ANDREOLI
+NIVEL       : DIFICIL
+PONTUACAO   : 175 pts
+TENTATIVAS  : 0
+ACERTOS     : 6
+ERROS       : 0
+RESULTADO   : VENCEU!
+-------------------------------------------------------
+
+-------------------------------------------------------
+DATA        : 06/05/2026 18:47:39
+JOGADOR     : Duda
+PALAVRA     : NEO QUIMICA ARENA
+NIVEL       : DIFICIL
+PONTUACAO   : 275 pts
+TENTATIVAS  : 0
+ACERTOS     : 10
+ERROS       : 0
+RESULTADO   : VENCEU!
+-------------------------------------------------------
+
+-------------------------------------------------------
+DATA        : 06/05/2026 18:51:36
+JOGADOR     : Arthur
+PALAVRA     : RIVELLINO
+NIVEL       : MEDIO
+PONTUACAO   : 120 pts
+TENTATIVAS  : 0
+ACERTOS     : 6
+ERROS       : 0
+RESULTADO   : VENCEU!
+-------------------------------------------
+
