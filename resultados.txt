@@ -38,3 +38,15 @@ ERROS       : 0
 RESULTADO   : VENCEU!
 -------------------------------------------
 
+-------------------------------------------------------
+DATA        : 06/05/2026 19:04:41
+JOGADOR     : guilherme
+PALAVRA     : VAMPETA
+NIVEL       : MEDIO
+PONTUACAO   : 90 pts
+TENTATIVAS  : 0
+ACERTOS     : 4
+ERROS       : 0
+RESULTADO   : VENCEU!
+-------------------------------------------
+
