@@ -50,3 +50,39 @@ ERROS       : 0
 RESULTADO   : VENCEU!
 -------------------------------------------
 
+-------------------------------------------------------
+DATA        : 15/05/2026 18:59:12
+JOGADOR     : Fabiana
+PALAVRA     : DEMOCRACIA CORINTHIANA
+NIVEL       : DIFICIL
+PONTUACAO   : 425 pts
+TENTATIVAS  : 0
+ACERTOS     : 16
+ERROS       : 0
+RESULTADO   : VENCEU!
+-------------------------------------------
+
+-------------------------------------------------------
+DATA        : 15/05/2026 19:01:21
+JOGADOR     : Maria Eduarda
+PALAVRA     : PARQUE SAO JORGE
+NIVEL       : DIFICIL
+PONTUACAO   : 220 pts
+TENTATIVAS  : 2
+ACERTOS     : 9
+ERROS       : 2
+RESULTADO   : VENCEU!
+-------------------------------------------
+
+-------------------------------------------------------
+DATA        : 15/05/2026 19:02:35
+JOGADOR     : Lucas
+PALAVRA     : PARQUE SAO JORGE
+NIVEL       : DIFICIL
+PONTUACAO   : 235 pts
+TENTATIVAS  : 1
+ACERTOS     : 9
+ERROS       : 1
+RESULTADO   : VENCEU!
+-------------------------------------------
+

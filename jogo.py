@@ -3,6 +3,7 @@ import random
 import os
 from datetime import datetime
 
+#Lista de palavras
 PALAVRAS = [
     ["CORINTHIANS",          "Nome do clube mais popular do Brasil, fundado em 1910",          "facil",   2],
     ["FIEL",                 "Como é chamada a torcida do Timão",                              "facil",   1],
@@ -31,7 +32,7 @@ PALAVRAS = [
     ["BIRO BIRO",            "Apelido do meia Guilherme Esteves, ídolo dos anos 80",           "medio",   2],
 ]
 
-
+#Setando as pontuacoes das fases
 TENTATIVAS = {"facil": 8,  "medio": 6,  "dificil": 5}
 PTS_ACERTO = {"facil": 10, "medio": 15, "dificil": 25}
 PTS_ERRO   = {"facil": -3, "medio": -5, "dificil": -10}
@@ -40,11 +41,11 @@ ARQUIVO_RESULTADO = "resultados.txt"
 
 
 
-
+#Função para limpar a tela
 def limpar_tela():
     os.system("clear")
 
-
+#Função para exibir o cabeçalho
 def cabecalho():
     print("===========================================================")
     print("       PALAVRA SECRETA DO TIMAO - SCCP")
@@ -52,7 +53,7 @@ def cabecalho():
     print("          Aqui e Fiel! Vai Timao!")
     print("===========================================================")
 
-
+#Função para sortear a palavra
 def sortear_palavra(nivel):
     
     opcoes = []
@@ -63,7 +64,7 @@ def sortear_palavra(nivel):
         opcoes = PALAVRAS
     return random.choice(opcoes)
 
-
+#Funcão para montar o display
 def montar_display(palavra, letras_reveladas):
     display = ""
     for letra in palavra:
@@ -75,7 +76,7 @@ def montar_display(palavra, letras_reveladas):
             display += "_ "
     return display.strip()
 
-
+#Funcao para revelar as letras iniciais
 def revelar_iniciais(palavra, quantidade):
     reveladas = []
     for letra in palavra:
@@ -85,14 +86,14 @@ def revelar_iniciais(palavra, quantidade):
             break
     return reveladas
 
-
+#Funcao para verificar se a palavra foi descoberta 
 def palavra_completa(palavra, letras_reveladas):
     for letra in palavra:
         if letra != " " and letra not in letras_reveladas:
             return False
     return True
 
-
+#Funcao para salvar os resultados dos jogadores
 def salvar_resultado(nome, pontuacao, tentativas, acertos, erros, palavra, nivel, venceu):
     arquivo_novo = not os.path.exists(ARQUIVO_RESULTADO)
 
@@ -121,7 +122,7 @@ def salvar_resultado(nome, pontuacao, tentativas, acertos, erros, palavra, nivel
     arquivo.write("-------------------------------------------\n\n")
     arquivo.close()
 
-
+#Funcao para exibir o historico de jogos 
 def exibir_historico():
     if not os.path.exists(ARQUIVO_RESULTADO):
         print("\n  Nenhuma partida registrada ainda!")
@@ -181,7 +182,7 @@ def exibir_historico():
 
     print("===========================================================\n")
 
-
+#Funcao para exibir as regras do jogo
 def exibir_regras():
     limpar_tela()
     cabecalho()
@@ -212,7 +213,7 @@ def exibir_regras():
     print()
 
 
-
+#A Funcao do Jogo 
 def jogar(nome, nivel):
     # Sorteia a palavra
     item         = sortear_palavra(nivel)
@@ -337,7 +338,7 @@ def jogar(nome, nivel):
 
     return pontuacao, tentativas_usadas, acertos, erros, venceu
 
-
+#Funcao do menu interativo para escolher o nivel
 def menu_nivel():
     limpar_tela()
     cabecalho()
@@ -365,7 +366,7 @@ def menu_nivel():
         else:
             print("  Opcao invalida. Tente novamente.")
 
-
+#Funcao do menu interativo, mostrando as opcoes
 def menu_principal(nome):
     while True:
         limpar_tela()
