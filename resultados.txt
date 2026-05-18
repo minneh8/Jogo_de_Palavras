@@ -86,3 +86,15 @@ ERROS       : 1
 RESULTADO   : VENCEU!
 -------------------------------------------
 
+-------------------------------------------------------
+DATA        : 18/05/2026 08:33:26
+JOGADOR     : Guilherme
+PALAVRA     : MOSQUETEIROS
+NIVEL       : DIFICIL
+PONTUACAO   : 250 pts
+TENTATIVAS  : 0
+ACERTOS     : 9
+ERROS       : 0
+RESULTADO   : VENCEU!
+-------------------------------------------
+
